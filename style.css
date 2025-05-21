@@ -14,7 +14,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color:rgb(255, 184, 224);
   position: fixed;
   top: 0;
   width: 100%;
@@ -34,16 +34,16 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: rgb(190, 89, 133);
 }
 
 .active {
-  background-color: red;
+  background-color: rgb(236, 127, 169);
 }
 
 h1 {
   width: 100%;
 }
 p {
-font-family: "Dancing Script", cursive;
+font-family: "Dancing Script", cursive; font-size: 30px
 }
