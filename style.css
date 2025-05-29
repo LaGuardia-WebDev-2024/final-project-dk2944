@@ -43,6 +43,7 @@ li a:hover:not(.active) {
 
 h1 {
   width: 100%;
+  color:rgb(236, 127, 169)
 }
 p {
 font-family: "Dancing Script", cursive; font-size: 30px
