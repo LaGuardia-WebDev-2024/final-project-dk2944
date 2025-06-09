@@ -1,4 +1,5 @@
 /* Styling Only Related To ALL Pages */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 body {
   padding-top: 30px;
@@ -13,7 +14,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color:rgb(255, 184, 224);
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,13 +34,17 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: rgb(190, 89, 133);
 }
 
 .active {
-  background-color: red;
+  background-color: rgb(236, 127, 169);
 }
 
 h1 {
   width: 100%;
+  color:rgb(236, 127, 169)
+}
+p {
+font-family: "Dancing Script", cursive; font-size: 30px
 }
